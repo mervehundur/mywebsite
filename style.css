@@ -1,0 +1,75 @@
+body { font-size: 52px;
+background-color: darkblue;
+color: white;
+padding: 15px;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0cm;
+line-height: 1.6em
+;}
+#navbar { background: lightblue;
+    color: darkblue;
+    padding: 10px;
+    margin: 0cm ;}
+
+#navbar ul{list-style:none;
+    padding:0cm;}
+
+#navbar li{display:inline;
+    padding-right: 160px;
+    font-size: 60px;}
+
+#showcase{ text-align: center;
+    background-image:url(../images/white.jpg);
+  opacity: 100%;
+    background-position: center right;
+    height:70%auto;
+    margin-top: 0cm;
+    margin-bottom: 30px;
+
+    }
+#showcase h2{ font-size: 76pt;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    color:darkblue;
+    line-height:1.6em;
+    padding: 0px
+    ;text-align-last: center
+    ;}
+
+#main h2{font-size: 36pt;}
+
+.container {width: 80%;
+    margin: auto;
+    overflow: hidden;
+     position: relative;
+top: 0.1px;
+left:15px;
+}
+#sidebar{ color: lightgrey;
+    background:black;
+    text-align: center;
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+padding: 10px;}
+
+#main{ background:darkblue;
+    padding: 0 30px;
+    float: left;
+    width: 70%;
+box-sizing: border-box;}
+
+#footer{ background: black;
+    color: red;
+margin-top: 45cm;
+padding: 20px;}
+
+@media(max-width:600px){
+#main {width: 100%; 
+float: none;}
+#sidebar
+   {width: 100%; 
+    float: none;}
+}
